@@ -14,7 +14,7 @@
 #
 # See http://rubydoc.info/gems/rspec-core/RSpec/Core/Configuration
 
-require 'cabybara/rspec'
+require 'capybara/rspec'
 
 
 RSpec.configure do |config|
