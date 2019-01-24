@@ -1,4 +1,16 @@
 require 'rails_helper'
+<<<<<<< HEAD
+=======
+
+# require 'selenium-webdriver'
+# require 'nokogiri'
+# #
+# options = Selenium::WebDriver::Chrome::Options.new
+# options.add_argument('--headless')
+# options.add_argument('--disable-gpu')
+#
+# driver = Selenium::WebDriver.for :chrome, options: options
+>>>>>>> bdebe1521a4de628fb52133813e4b5116692209d
 
 describe 'タスク管理機能', type: :system do
   let(:user_a) { FactoryBot.create(:user, name: 'ユーザーA', email: 'a@example.com') }  # <-
