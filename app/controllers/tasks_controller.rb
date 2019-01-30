@@ -50,7 +50,7 @@ class TasksController < ApplicationController
 
   def destroy
     @task.destroy
-    head :no_content
+    # head :no_content
   end
 
   def import
